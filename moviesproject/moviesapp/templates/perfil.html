@@ -12,6 +12,8 @@
 </head>
 
 <body>
+    <p>Bem-vindo, <b>{{ request.user }}</b> | <a href="{% url 'logout' %}">Sair</a></p>
+
     <div class="logo">
         <img src="https://cdn-icons-png.flaticon.com/512/309/309616.png"  width="100" >
     </div>
